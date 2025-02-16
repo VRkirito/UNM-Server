@@ -10,9 +10,9 @@ router.get("/", async (ctx) => {
 // 测试
 router.get("/test", async (ctx) => {
   const data = await match(1962165898, [
-    "kugou",
-    "kuwo",
-    "migu",
+   // "kugou",
+   // "kuwo",
+   // "migu",
     "pyncmd",
   ]).then((res) => {
     return res;
